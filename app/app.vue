@@ -19,7 +19,7 @@
           <!-- 密码验证 -->
           <SiteLogin v-if="!statusStore.loginStatus" />
           <!-- 站点卡片 -->
-          
+          <SiteCards v-else />
         </Transition>
       </main>
       <SiteFooter />
