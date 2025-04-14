@@ -19,10 +19,10 @@
           <!-- 密码验证 -->
           <SiteLogin v-if="!statusStore.loginStatus" />
           <!-- 站点卡片 -->
-          <SiteCards v-else />
+          
         </Transition>
       </main>
-      
+      <SiteFooter />
       <!-- 回到顶部 -->
       <n-back-top :visibility-height="10" />
     </n-scrollbar>
